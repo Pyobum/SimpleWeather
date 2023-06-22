@@ -250,6 +250,11 @@
                             <constraint firstItem="Y6K-iJ-GeR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="fQb-j8-IUT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="qWn-cf-pns" id="piR-3L-CK8"/>
+                        <outlet property="temperatureLabel" destination="Mg2-bK-F7d" id="vD8-0u-zti"/>
+                        <outlet property="weatherImageView" destination="PHp-cB-xZG" id="qSP-hF-yX2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
